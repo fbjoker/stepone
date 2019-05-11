@@ -17,7 +17,6 @@ public class testfuture {
 
         Future<Integer> res = executorService.submit(task2);
         Future<Integer> res2 = executorService.submit(task);
-        Future<Integer> res3 = executorService.submit(task2);
         Future<Integer> res4 = executorService.submit(task2);
 
         executorService.shutdown();
